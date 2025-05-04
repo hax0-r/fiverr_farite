@@ -3,13 +3,27 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".button-next",
         prevEl: ".button-prev",
     },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
     autoplay: {
         delay: 5000,
     },
     loop: true,
     keyboard: true,
+});
+
+var swiper = new Swiper(".mySwiperTestimonials", {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    autoplay: {
+        delay: 3000,
+    },
+    loop: true,
+    keyboard: true,
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        640: {
+            slidesPerView: 2,
+        },
+    },
 });

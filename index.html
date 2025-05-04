@@ -18,6 +18,7 @@
 
 <body>
 
+    <div id="bottomToTopScroll"></div>
     <div id="navbar"></div>
 
     <section class="flex items-center justify-center w-full">
@@ -86,12 +87,12 @@
     </section>
 
     <section
-        class="flex max-w-7xl mx-auto w-full md:mt-20 mt-8 px-5 items-center justify-between gap-10 md:flex-row flex-col-reverse">
+        class="flex max-w-7xl mx-auto w-full md:mt-20 mt-12 px-5 items-center justify-between gap-10 md:flex-row flex-col-reverse">
         <div class="md:max-w-1/2 w-full">
             <img src="./Docs/Assets/home/about.png" class="w-full md:max-w-[80%] mx-auto" alt="">
         </div>
         <div class="md:max-w-1/2 w-full">
-            <h2 class="text-4xl libre font-medium">Welcome! We love God!</h2>
+            <h2 class="md:text-4xl text-3xl libre font-medium">Welcome! We love God!</h2>
             <h3 class="text-xl text-zinc-600 mt-2">We aim to express our love of Jesus Christ by living the will of the
                 Father.</h3>
             <h3 class="text-zinc-600 mt-4">Our church is a perfect place for all local residents to come in with their
@@ -386,13 +387,71 @@
         </div>
     </div>
 
-    <section class="md:mt-28 mt-8">
+    <div class="bg-[#f9f7f5] md:py-20 py-10">
+        <section class="max-w-6xl w-full mx-auto  p-5">
+            <h2 class="md:text-4xl libre text-3xl text-[#0d1834] font-medium text-center">Testimonials</h2>
+            <div class="md:mt-12 mt-8">
+                <div class="swiper mySwiperTestimonials">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <i class="fa-solid fa-quote-left text-[#1c2647] text-6xl"></i>
+                            <p class="text-zinc-600 mt-3 md:text-lg">I've never been part of a church that's just
+                                getting started,
+                                so this is all new territory for me.
+                                It's incredible to see God at work, bringing people together.</p>
+                            <div class="flex items-center gap-3 mt-5">
+                                <img src="https://ld-wt73.template-help.com/tf/farite_v2/images/testimonials-person-1-48x48.jpg"
+                                    class="w-12 h-12 rounded-full" alt="">
+                                <div class="">
+                                    <p class="text-lg text-[#c1ad96]">Russell Smith</p>
+                                    <p class="text-lg text-zinc-500 text-sm">Parishioner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa-solid fa-quote-left text-[#1c2647] text-6xl"></i>
+                            <p class="text-zinc-600 mt-3 md:text-lg">I've never been part of a church that's just
+                                getting started,
+                                so this is all new territory for me.
+                                It's incredible to see God at work, bringing people together.</p>
+                            <div class="flex items-center gap-3 mt-5">
+                                <img src="https://ld-wt73.template-help.com/tf/farite_v2/images/testimonials-person-1-48x48.jpg"
+                                    class="w-12 h-12 rounded-full" alt="">
+                                <div class="">
+                                    <p class="text-lg text-[#c1ad96]">Russell Smith</p>
+                                    <p class="text-lg text-zinc-500 text-sm">Parishioner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa-solid fa-quote-left text-[#1c2647] text-6xl"></i>
+                            <p class="text-zinc-600 mt-3 md:text-lg">I've never been part of a church that's just
+                                getting started,
+                                so this is all new territory for me.
+                                It's incredible to see God at work, bringing people together.</p>
+                            <div class="flex items-center gap-3 mt-5">
+                                <img src="https://ld-wt73.template-help.com/tf/farite_v2/images/testimonials-person-1-48x48.jpg"
+                                    class="w-12 h-12 rounded-full" alt="">
+                                <div class="">
+                                    <p class="text-lg text-[#c1ad96]">Russell Smith</p>
+                                    <p class="text-lg text-zinc-500 text-sm">Parishioner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <section class="md:mt-28 mt-14">
         <h2 class="md:text-4xl text-3xl text-center libre font-medium">Latest Blog Posts</h2>
         <div
-            class="flex max-w-7xl md:mt-16 mt-8 mx-auto w-full  px-5 items-start justify-between gap-10 md:flex-row flex-col-reverse">
+            class="flex max-w-7xl md:mt-16 mt-8 mx-auto w-full  px-5 items-start justify-between gap-10 md:flex-row flex-col">
             <div class="md:max-w-1/2 w-full relative">
                 <img src="https://ld-wt73.template-help.com/tf/farite_v2/images/blog-layouts-5-637x456.jpg"
-                    class="w-full mx-auto" alt="">
+                    class="w-full rounded-lg mx-auto" alt="">
                 <div class="absolute md:bottom-7 bottom-3 md:left-7 left-3 pl-2">
                     <div class="flex md:mb-4 mb-2 text-zinc-200 items-center md:gap-5 gap-2 flex-wrap">
                         <p>by Theresa Barnes</p> |
@@ -413,7 +472,9 @@
                         <p>October</p>
                     </div>
                     <div class="col-span-4">
-                        <a href="#" class="md:text-2xl text-xl transition-all text-[#c1ad9c] hover:text-[#1c2647] duration-500">What is Jesus undoing in your
+                        <a href="#"
+                            class="md:text-2xl text-xl transition-all text-[#c1ad9c] hover:text-[#1c2647] duration-500">What
+                            is Jesus undoing in your
                             life?</a>
                         <div class="flex md:mt-4 mt-2 text-zinc-600 items-center md:gap-5 gap-2 flex-wrap">
                             <p>by Theresa Barnes</p> |
@@ -421,14 +482,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full flex grid md:grid-cols-5 md:mt-12 grid-cols-6 gap-5">
+                <div class="w-full flex grid md:grid-cols-5 md:mt-12 grid-cols-6 mt-7 gap-5">
                     <div
                         class="bg-[#1c2647] text-center md:col-span-1 col-span-2 text-white flex h-24 items-center rounded-md justify-center flex-col">
                         <h2 class="text-white text-4xl libre">29</h2>
                         <p>October</p>
                     </div>
                     <div class="col-span-4">
-                        <a href="#" class="md:text-2xl text-xl transition-all text-[#c1ad9c] hover:text-[#1c2647] duration-500">What is Jesus undoing in your
+                        <a href="#"
+                            class="md:text-2xl text-xl transition-all text-[#c1ad9c] hover:text-[#1c2647] duration-500">What
+                            is Jesus undoing in your
                             life?</a>
                         <div class="flex md:mt-4 mt-2 text-zinc-600 items-center md:gap-5 gap-2 flex-wrap">
                             <p>by Theresa Barnes</p> |
@@ -436,14 +499,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full flex grid md:grid-cols-5 md:mt-12 grid-cols-6 gap-5">
+                <div class="w-full flex grid md:grid-cols-5 md:mt-12 grid-cols-6 mt-7 gap-5">
                     <div
                         class="bg-[#1c2647] text-center md:col-span-1 col-span-2 text-white flex h-24 items-center rounded-md justify-center flex-col">
                         <h2 class="text-white text-4xl libre">29</h2>
                         <p>October</p>
                     </div>
                     <div class="col-span-4">
-                        <a href="#" class="md:text-2xl text-xl transition-all text-[#c1ad9c] hover:text-[#1c2647] duration-500">What is Jesus undoing in your
+                        <a href="#"
+                            class="md:text-2xl text-xl transition-all text-[#c1ad9c] hover:text-[#1c2647] duration-500">What
+                            is Jesus undoing in your
                             life?</a>
                         <div class="flex md:mt-4 mt-2 text-zinc-600 items-center md:gap-5 gap-2 flex-wrap">
                             <p>by Theresa Barnes</p> |
@@ -452,7 +517,7 @@
                     </div>
                 </div>
 
-                <div class="flex mt-5 md:mt-12">
+                <div class="flex mt-7 md:mt-12">
                     <a href="#"
                         class="py-3.5 md:px-12 px-8 rounded-md md:text-lg  transition-all duration-500 hover:bg-[#192531] bg-[#c1ad9c] text-white md:font-semibold font-medium tracking-wide cursor-pointer">VIEW
                         ALL POST</a>
