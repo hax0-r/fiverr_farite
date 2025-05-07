@@ -3,9 +3,9 @@ footer.innerHTML = `
     <footer class="bg-[#192531] px-5 pt-14 md:pt-20">
         <div class="max-w-7xl w-full mx-auto grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-20 gap-10 ">
             <div class="w-full">
-                <h2 class="font-medium text-2xl mb-3 text-white">About Us
+                <h2 data-aos="fade-up" class="font-medium text-2xl mb-3 text-white">About Us
                 </h2>
-                <p class="text-zinc-300 mt-5">Farite Church is a Family of Faith that is committed to Bible teaching and
+                <p data-aos="fade-up" data-aos-delay="100" class="text-zinc-300 mt-5">Farite Church is a Family of Faith that is committed to Bible teaching and
                     joyful worship. People of
                     all ages are ministered to and given opportunities to serve the Lord by serving others at our
                     welcoming community.
@@ -13,39 +13,41 @@ footer.innerHTML = `
             </div>
 
             <div class="w-full">
-                <h2 class="font-medium text-2xl mb-3 text-white">Contact Information</h2>
+                <h2 data-aos="fade-up" class="font-medium text-2xl mb-3 text-white">Contact Information</h2>
                 <div class="mt-7">
-                    <a href="tel:+03 00 0000 000"
-                        class="flex items-center gap-3 transition-all duration-500 hover:text-[#c1ad96] text-white"><i
-                            class="fa-solid fa-phone text-lg text-[#fff]"></i> 1-800-1234-678</a>
-                    <a href="mailto:info@demolink.org"
-                        class="flex items-center gap-3 transition-all mt-4 duration-500 hover:text-[#c1ad96] text-white"><i
-                            class="fa-solid fa-envelope text-xl text-[#fff] "></i>info@demolink.org</a>
-                    <a href="#"
+                    <a data-aos="fade-up" href="#"
                         class="flex items-start gap-3 transition-all mt-4 duration-500 hover:text-[#c1ad96] text-white"><i
                             class="fa-solid fa-location-dot text-xl text-[#fff] mt-1"></i>2130 Fulton Street <br>
                         San Diego, CA 94117-1080 USA</a>
+                    <a data-aos="fade-up" href="mailto:info@demolink.org"
+                        class="flex items-center gap-3 transition-all mt-4 duration-500 hover:text-[#c1ad96] text-white"><i
+                            class="fa-solid fa-envelope text-xl text-[#fff] "></i>info@demolink.org</a>
+                    <div class="flex items-center gap-5 text-zinc-300 mt-8">
+                        <a data-aos="fade-up" href=""><i
+                                class="fa-brands fa-facebook-f text-lg"></i></a>
+                        <a data-aos="fade-up" data-aos-delay="100" href=""><i
+                                class="fa-brands fa-instagram text-xl"></i></a>
+                        <a data-aos="fade-up" data-aos-delay="200" href=""><i
+                                class="fa-brands fa-spotify text-xl"></i></a>
+                        <a data-aos="fade-up" data-aos-delay="300" href=""><img
+                                src="./Docs/Assets/donation.svg" alt=""></a>
+                    </div>
                 </div>
             </div>
 
             <div class="w-full">
-                <h2 class="font-medium text-2xl mb-3 text-white">Newsletter</h2>
-                <p class="text-zinc-300 mt-5">Sign up to our newsletter and be the first to know about the latest news,
-                    updates, and activities available at our church.
-                </p>
-                <form class="">
-                    <div class="relative p-3 bg-white rounded-lg w-full mt-5">
-                        <input type="email" required name="email" class=" bg-white rounded-lg w-full pr-16"
-                            placeholder="email ">
-                        <button type="submit"
-                            class="flex items-center justify-center absolute top-0 right-0 h-full w-16 transition-all duration-500 hover:bg-[#6a7a83] bg-[#c1ad9c] rounded-lg cursor-pointer">
-                            <i class="fa-solid fa-envelope text-xl text-[#fff] "></i>
-                        </button>
-                    </div>
-                </form>
+                <h2 data-aos="fade-up" class="font-medium text-2xl mb-3 text-white">Quick Link</h2>
+                <div class="mt-7">
+                    <ul class="space-y-2 text-zinc-200">
+                        <li data-aos="fade-up"><a class="hover:underline" href="/privacy-policy.html">Privacy Policy</a></li>
+                        <li data-aos="fade-up" data-aos-delay="100"><a class="hover:underline" href="/terms-of-use.html">Terms of Use </a></li>
+                        <li data-aos="fade-up" data-aos-delay="200"><a class="hover:underline" href="/accessibility-statement.html">Accessibility Policy </a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <p class="max-w-7xl md:mt-16 mt-5 text-zinc-300 w-full mx-auto py-5 text-white text-center">© <span id="copyright"></span> All Rights
+        <p class="max-w-7xl md:mt-16 mt-5 text-zinc-300 w-full mx-auto py-5 text-white text-center">© <span
+                id="copyright"></span> All Rights
             Reserved. <a href="#" class="hover:underline">Privacy Policy</a></p>
     </footer>
 `
